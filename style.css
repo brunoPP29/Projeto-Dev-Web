@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.w50{
+    width: 50%;
+
+}
+
+.w33{
+    width: 33%;
+}
+
+.clear{
+    clear: both;
+}
+
+.nav-mobile{
+    display: none;
+    float: right;
+}
+
+header.header1{
+    background: cornflowerblue;
+    padding: 5px 0;
+
+}
+.logomarca h1{
+    float: left;
+    font-size: 30px;
+    color: white;
+    margin: 5px;
+}
+
+nav.nav-desktop{
+    float: right;
+    padding: 8px 0;
+    margin: 5px;
+}
+
+.nav-desktop li{
+    display: inline-block;
+    padding-right: 100px;
+    font-size: 18px;
+}
+
+.nav-desktop li > a{
+    text-decoration: none;
+    color: white;
+
+}
+
+
